@@ -3,7 +3,7 @@ describe("saludar", function() {
     saludar(["Jorge"])
     assert.equal(fakeConsole.toString(), "hola Jorge\n")
   });
-}
+})
 
 describe("saludar2", function() {
   it("deberia imprimir los saludos de dos personas", function() {
