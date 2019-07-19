@@ -1,0 +1,1 @@
+Tené en cuenta que el saludo que imprimimos siempre es "hola" y luego el nombre de la persona. ¡No te olvides del espacio! :wink:
