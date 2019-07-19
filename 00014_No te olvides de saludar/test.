@@ -1,4 +1,6 @@
 describe("saludar", function() {
+  before(setUpFakeConsole)
+  
   it("deberia imprimir los saludos de una persona", function() {
     saludar(["Jorge"])
     assert.equal(fakeConsole.toString(), "hola Jorge\n")
