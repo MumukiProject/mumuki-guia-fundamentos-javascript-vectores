@@ -1,5 +1,5 @@
 describe("saludar", function() {
-  before(setUpFakeConsole)
+  beforeEach(setUpFakeConsole)
   
   it("deberia imprimir los saludos de una persona", function() {
     saludar(["Jorge"])
