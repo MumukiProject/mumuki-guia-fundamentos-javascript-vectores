@@ -13,6 +13,11 @@ function setUpFakeConsole() {
   };
 }
 
+function setUpRealConsole() {
+  fakeConsole = console;
+}
+
+
 function imprimir(s) {
   fakeConsole.log(s)
 }
