@@ -10,13 +10,13 @@ describe("", function() {
   })
   
   it("trasladar mueve el último elemento de una lista de 4 elementos a una de 4 elementos", function() {
-    var unArray = [1, 2, 3, 4];
+    var unArray = [10, 20, 30, 40];
     var otroArray = [4, 5, 6, 7];
 
     trasladar(unArray, otroArray);
 
-    assert.deepEqual(unArray, [1, 2, 3]);
-    assert.deepEqual(otroArray, [4, 5, 6, 7, 3]);
+    assert.deepEqual(unArray, [10, 20, 30]);
+    assert.deepEqual(otroArray, [40, 5, 6, 7, 3]);
   })
 
 
