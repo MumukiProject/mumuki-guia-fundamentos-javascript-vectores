@@ -14,4 +14,4 @@ expectations:
   inspection: Uses:agregar
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Not:Assigns
+  inspection: Not:DeclaresVariable
