@@ -133,10 +133,28 @@ function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
   return unaLista.push(unElemento);
 } /*@elipsis-for-student>*/
 
+// Quita el último elemento de unaLista.
+// Este es un procedimiento que no devuelve nada pero modifica a unaLista:
+//
+//  ム let listaDeCompras = ["leche", "pan", "arroz", "aceite", "yerba"]
+//  ム remove(listaDeCompras)
+//  ム listaDeCompras
+//  ["leche", "pan", "arroz", "aceite"]
 function remover(unaLista) /*<elipsis-for-student@*/ {
   return unaLista.pop();
 } /*@elipsis-for-student>*/
 
+
+// Nos dice en qué posición se encuentra un elemento.
+// Si el elemento no está en la lista, devuelve -1
+//
+//  ム let premios = ["dani", "agus", "juli", "fran"]
+//  ム posicion(premios, "dani")
+//  0
+//  ム posicion(premios, "juli")
+//  2
+//  ム posicion(premios, "feli")
+//  -1
 function posicion(unaLista, unElemento) /*<elipsis-for-student@*/ {
   return unaLista.indexOf(unElemento);
 } /*@elipsis-for-student>*/
