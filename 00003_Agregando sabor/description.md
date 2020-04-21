@@ -12,4 +12,4 @@ Como vemos, `agregar` suma un elemento a la lista, lo cual hace que su tamaño a
 
 > Averigualo vos mismo: inspeccioná en la consola qué elementos contiene `pertenencias`, agregale una `"ballesta"` y volvé a inspeccionar `pertenencias`.
 >
-> Además existe un método `remover`, que sólo recibe la lista por parámetro. Investigá en la consola qué hace. :thought_balloon:
+> Además existe un procedimiento `remover`, que sólo recibe la lista por parámetro. Investigá en la consola qué hace. :thought_balloon:
