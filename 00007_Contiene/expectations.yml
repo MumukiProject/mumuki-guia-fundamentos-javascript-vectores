@@ -8,4 +8,4 @@ expectations:
   inspection: Declares:contiene
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:contiene
+  inspection: DeclaresComputationWithArity2:contiene
