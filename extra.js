@@ -133,11 +133,11 @@ function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
   return unaLista.push(unElemento);
 } /*@elipsis-for-student>*/
 
-// Quita el último elemento de unaLista.
-// Este es un procedimiento que no devuelve nada pero modifica a unaLista:
+// Quita el último elemento de unaLista y lo devuelve.
 //
 //  ム let listaDeCompras = ["leche", "pan", "arroz", "aceite", "yerba"]
 //  ム remove(listaDeCompras)
+//  "yerba"
 //  ム listaDeCompras
 //  ["leche", "pan", "arroz", "aceite"]
 function remover(unaLista) /*<elipsis-for-student@*/ {
