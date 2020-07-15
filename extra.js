@@ -136,7 +136,7 @@ function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
 // Quita el último elemento de unaLista y lo devuelve.
 //
 //  ム let listaDeCompras = ["leche", "pan", "arroz", "aceite", "yerba"]
-//  ム remove(listaDeCompras)
+//  ム remover(listaDeCompras)
 //  "yerba"
 //  ム listaDeCompras
 //  ["leche", "pan", "arroz", "aceite"]
