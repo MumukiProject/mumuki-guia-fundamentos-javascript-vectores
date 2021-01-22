@@ -1,9 +1,6 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: contiene
-  inspection: Uses:posicion
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Declares:contiene
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
