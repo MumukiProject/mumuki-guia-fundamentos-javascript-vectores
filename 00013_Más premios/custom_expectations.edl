@@ -1,2 +1,2 @@
 expectation "No hace falta usar más de un `if` en esta solución.":
-  within `medallaSegunPuesto` count(uses if) = 1;
+  count(uses if) = 1;
