@@ -1,2 +1,2 @@
-expectation "Para resolver este ejercicio recordá que contás con `agregar` y `remover` (versiones simplificadas de `push` y `pop` respectivamente).":
+expectation "Para resolver este ejercicio recordá que contás con `agregar` y `remover`.":
   (uses `agregar` || uses `push`) && (uses `remover` || uses `pop`);
