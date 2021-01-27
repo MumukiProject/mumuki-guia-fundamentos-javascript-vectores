@@ -1,2 +1,2 @@
 expectation "Para resolver este ejercicio recordá que contás con `posicion`.":
-  uses `posicion` || uses `indexOf`
+  calls `posicion` || calls `indexOf`
