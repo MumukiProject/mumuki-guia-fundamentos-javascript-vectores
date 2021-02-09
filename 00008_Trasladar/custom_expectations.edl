@@ -1,2 +1,2 @@
 expectation "Para resolver este ejercicio recordá que contás con `agregar` y `remover`.":
-  (calls `agregar` || calls `push`) && (calls `remover` || calls `pop`);
+  (calls `agregar` || uses push) && (calls `remover` || calls `pop`);
